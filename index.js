@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB connection
-mongoose.connect(process.env.MONGO_URI || "mongodb://localhost:27017/jobboard", {
+mongoose.connect(process.env.MONGO_URI || "mongodb+srv://tiwariakshat2023it:qDt0oe5fOOyPpbwE@cluster0.wecq2xe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
